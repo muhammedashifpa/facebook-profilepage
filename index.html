@@ -12,7 +12,7 @@
 <body>
     <header>
         <nav>
-            <div class="nav-bar">
+            <div class="nav-bar grid">
                 <div class="search-bar">
                     <img src="assets/img/facebook-logo-2019 (1).png" alt="facebook icon" height="42" class="facebook-icon">
                     <input type="text" class="search-box" placeholder="search">
@@ -26,7 +26,6 @@
                         <li><a class='nav-icon' href=""><i class="uil uil-notebooks"></i></a></li>
                     </ul>
                 </div>
-                <div class="nav-function-div">
                     <ul class="nav-function">
                         <li><a class="nav-function-icon user-icon" href=""><i class="uil uil-user-circle"></i><p class="pro-name">User</p></a></li>
                         <li><a class="nav-function-icon" href=""><i class="uil uil-bars"></i></i></a></li>
@@ -34,85 +33,163 @@
                         <li><a class="nav-function-icon" href=""><i class="uil uil-bell"></i></a></li>
                         <li><a class="nav-function-icon" href=""><i class="uil uil-arrow-circle-down"></i></a></li>
                     </ul>
-                </div>
-
             </div>
         </nav>
     </header>
     <main>
-        <section>
-            <div class="home-content">
-                <img class="cover-img" src="assets/img/cover.jpg" alt="">
-                <img class="pro-pic" src="assets/img/wesley-mc-lachlan-CCcSYfJxtzE-unsplash.jpg" alt="profile-pic">
-                <h1 class="user-name">user name</h1>
-                <h3 class="user-bio">Add bio</h3>
-                <div class="line-break"></div>
-                <div class="selection-div">
-                    <ul class="selection-list">
-                        <li><a class="selection" href="">Post</a></li>
-                        <li><a class="selection" href="">About</a></li>
-                        <li><a class="selection" href="">Friends</a></li>
-                        <li><a class="selection" href="">Photos</a></li>
-                        <li><a class="selection" href="">Story Archive</a></li>
-                        <li><a class="selection" href="">More</a></li>
-                    </ul>
+        <section id="home">
+        <div class="home container">
+            <img class="cover-image" src="assets/img/cover.jpg" alt="facebook cover image" >
+            <img class="pro-pic" src="https://scontent.fcok7-1.fna.fbcdn.net/v/t1.6435-1/p320x320/195346890_2957545237837746_8084441248588505496_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=7206a8&_nc_ohc=vOLwKUoJmXoAX9InFBx&_nc_ht=scontent.fcok7-1.fna&oh=20e0aef94df777ec854638ebdb42b059&oe=6153EB39" alt="profile-pic">
+            <h2 class="profile-title">Ashif MohDz</h2>
+            <h4 class="profile-subtitle">Think diffrent</h4>
+            <div class="grid profile-option-parent">
+                <div class="profile-option">
+                    <a class="profile-option-link" href="">Posts</a>
+                    <a class="profile-option-link" href="">About</a>
+                    <a class="profile-option-link" href="">Friends</a>
+                    <a class="profile-option-link" href="">Photos</a>
+                    <a class="profile-option-link" href="">Story Archive</a>
+                    <a class="profile-option-link" href="">More</a>
                 </div>
+                <div class="profile-option2">
+                    <a class="profile-option-link2 add-story-button" href=""><i class="uil uil-plus-circle"></i>Add story</a>
+                    <a class="profile-option-link2" href=""><i class="uil uil-pen"></i>Edit profile</a>
+                    <a class="profile-option-link2" href="">...</a>
+                <div>
+            </div>
+        </div>
+        </section>
+        <section id='feed'>
+            <div class="container grid-container grid">
+                <div>
+                    <div class="column-in-grid" id="intro">
+                        <h3 class="feed-grid-title">Intro</h3>
+                        <div class="--inline-flex">
+                            <i class="uil uil-suitcase feed-icon"></i>
+                            <p class="feed-discription">not yet working still studying</p>
+                        </div>
+                        <div class="--inline-flex"><i class="uil uil-graduation-cap feed-icon"></i>
+                            <p class="feed-discription">Studied at Nehru Arts and Science College, Coimbatore - Autonomous
+                            </p>
+                        </div>
+                        <div class="--inline-flex"><i class="uil uil-graduation-cap feed-icon"></i>
+                            <p class="feed-discription">Went to Mes high school mundur</p>
+                        </div>
+                        <div class="--inline-flex"><i class="uil uil-estate feed-icon"></i>
+                            <p class="feed-discription">Lives in Palghat</p>
+                        </div>
+                        <div class="--inline-flex"><i class="uil uil-location-point feed-icon"></i>
+                            <p class="feed-discription">From Palghat</p>
+                        </div>
+                        <div class="--inline-flex"><i class="uil uil-clock-three feed-icon"></i>
+                            <p class="feed-discription">Joined January 2014</p>
+                        </div>
+                        <div class="--inline-flex"><i class="uil uil-rss feed-icon"></i>
+                            <p class="feed-discription">Followed by 37 people</p>
+                        </div>
+                        <div class="grid intro-button-grid">
+                            <a class="--inline-flex intro-button" href="">Edit Detials</a>
+                            <a class="--inline-flex intro-button" href="">Add Hobies</a>
+                            <a class="--inline-flex intro-button" href="">Add Featured</a>
+                            
+                        </div>
+                    </div>
+                    <div class="column-in-grid" id="posts">
+                        <div class="--inline-flex space-between">
+                            <h3 class="feed-grid-title">Photos</h3>
+                            <a href="" class="feed-grid-title-link">See All Photos</a>
+                        </div>
+                        <div class="grid photos-grid">
+                            <img class="photos-preview" src="assets/img/3.jpg" alt="Photos">
+                            <img class="photos-preview" src="assets/img/6.jpg" alt="Photos">
+                            <img class="photos-preview" src="assets/img/asdfa.jpg" alt="Photos">
+                            <img class="photos-preview" src="assets/img/d.jpg" alt="Photos">
+                            <img class="photos-preview" src="assets/img/hy.jpg" alt="Photos">
+                            <img class="photos-preview" src="assets/img/j.jpg" alt="Photos">
+                            <img class="photos-preview" src="assets/img/k.jpg" alt="Photos">
+                            <img class="photos-preview" src="assets/img/Screenhg.jpg" alt="Photos">
+                            <img class="photos-preview" src="assets/img/s.jpg" alt="Photos">
+
+                        </div>
+                        
+                    </div>
+                </div>
+                <div>
+                    <div class="column-in-grid " id="post-now">
+                        <div class="--inline-flex border-bottem">
+                            <img class="small-profile-pic" src="https://scontent.fcok7-1.fna.fbcdn.net/v/t1.6435-1/cp0/p60x60/195346890_2957545237837746_8084441248588505496_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=7206a8&_nc_ohc=vOLwKUoJmXoAX_z9oB1&_nc_ht=scontent.fcok7-1.fna&oh=abe3e438d6bebe1a1fa00dbfbe354c51&oe=61552BB3" alt="pic">
+                            <input class="post-box" type="text" placeholder="What's on your mind? ">
+                        </div>
+                        <div class="--inline-flex space-around">
+                            <a class="--inline-flex post-button" href=""><i style="color: red;" class="uil uil-video"></i>Live Video</a>
+                            <a class="--inline-flex post-button" href=""><i style="color: green;" class="uil uil-images"></i>Photo Video</a>
+                            <a class="--inline-flex post-button" href=""><i style="color: rgb(3, 173, 196);" class="uil uil-umbrella"></i></i>Life Events</a>
+                        </div>
+                    </div>
+                    <div class="column-in-grid" id="post-settings">
+                        <div class="--inline-flex space-between border-bottem">
+                            <h3 class="feed-grid-title">post</h3>
+                            <div class="--inline-flex">
+                                <a href="" class="profile-option-link2 "><i class="uil uil-sliders-v-alt"></i>Filters</a>
+                                <a href="" class="profile-option-link2 "><i class="uil uil-setting"></i>Manage Posts</a>
+                            </div>
+                        </div>
+                        <div class="grid post-now-button-div">
+                            <a href=""  class="--inline-flex" style="color: #1877f2;"><i class="uil uil-list-ul"></i>List View</a>
+                            <a href="" class="--inline-flex"><i class="uil uil-th"></i>Grid View</a>
+                        </div>
+                    </div>
+                    <div class="column-in-grid" id="post1">
+                        <div class="--inline-flex post-head">
+                            <img class="small-profile-pic" src="https://scontent.fcok7-1.fna.fbcdn.net/v/t1.6435-1/cp0/p60x60/195346890_2957545237837746_8084441248588505496_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=7206a8&_nc_ohc=vOLwKUoJmXoAX_z9oB1&_nc_ht=scontent.fcok7-1.fna&oh=abe3e438d6bebe1a1fa00dbfbe354c51&oe=61552BB3" alt="pic">
+                            <div class="profile-post-title">
+                                <a class="post-profile-link" href=""><h4>Ashif MohDz</h3></a>
+                                <a class="post-date" href=""><p>August 29 at 11:20AM</p></a>
+                            </div>
+                        </div>
+                        <div class="post-body grid">
+                            <img src="https://scontent.fcok7-1.fna.fbcdn.net/v/t1.6435-9/p720x720/240705221_3021827061409563_2253488462055017162_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_ohc=Qt2crWTGVdoAX8zGW3Z&_nc_ht=scontent.fcok7-1.fna&oh=e1d06b7b6669e89842197c835db11a6b&oe=615359E4" alt=""> 
+                            <img src="https://scontent.fcok7-1.fna.fbcdn.net/v/t1.6435-9/p720x720/240787257_3021827058076230_2398971485158645701_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=730e14&_nc_ohc=EGvxJ71g_vIAX-rpJvL&_nc_ht=scontent.fcok7-1.fna&oh=f36dc3876d00d92b61f091cf143a9ff7&oe=615506E7" alt="">
+                        </div>
+                        <div class="--inline-flex space-between post-progress border-bottem">
+                            <a class="post-text" href=""><i class="uil uil-thumbs-up"></i>12</a>
+                            <a class="post-text" href="">1 Comment</a>
+                        </div>
+                        <div class="grid post-activity">
+                            <a href="" class="post-activity-button"><i class="uil uil-thumbs-up"></i></i>Like</a>
+                            <a href="" class="post-activity-button "><i class="uil uil-comment-dots"></i>Comment</a>
+                            <a href="" class="post-activity-button "><i class="uil uil-share"></i>Share</a>
+                        </div>
+                    </div>
+                    <div class="column-in-grid" id="post1">
+                        <div class="--inline-flex post-head">
+                            <img class="small-profile-pic" src="https://scontent.fcok7-1.fna.fbcdn.net/v/t1.6435-1/cp0/p60x60/195346890_2957545237837746_8084441248588505496_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=7206a8&_nc_ohc=vOLwKUoJmXoAX_z9oB1&_nc_ht=scontent.fcok7-1.fna&oh=abe3e438d6bebe1a1fa00dbfbe354c51&oe=61552BB3" alt="pic">
+                            <div class="profile-post-title">
+                                <a class="post-profile-link" href=""><h4>Ashif MohDz</h3></a>
+                                <a class="post-date" href=""><p>June 12 at 1:49PM</p></a>
+                            </div>
+                        </div>
+                        <div class="post-body grid">
+                            <img src="https://scontent.fcok7-1.fna.fbcdn.net/v/t1.6435-9/p720x720/208909632_2980289455563324_7168518203214372170_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=ug6SXHUXerkAX8BoRa3&_nc_ht=scontent.fcok7-1.fna&oh=2944d40e7ea2956b81706fa3a83504bc&oe=6152214D" alt=""> 
+                            <img src="https://scontent.fcok7-1.fna.fbcdn.net/v/t1.6435-9/p720x720/208984571_2980289458896657_2410997986333103565_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=730e14&_nc_ohc=AA0lLcYC7QkAX-yNalH&tn=qdVk3-S-tSxN39WN&_nc_ht=scontent.fcok7-1.fna&oh=ca7d630102dcf7135056e85e28092a7d&oe=6155922A" alt="">
+                        </div>
+                        <div class="--inline-flex space-between post-progress border-bottem">
+                            <a class="post-text" href=""><i class="uil uil-thumbs-up"></i>23</a>
+                            <a class="post-text" href="">2 Comment</a>
+                        </div>
+                        <div class="grid post-activity">
+                            <a href="" class="post-activity-button"><i class="uil uil-thumbs-up"></i></i>Like</a>
+                            <a href="" class="post-activity-button "><i class="uil uil-comment-dots"></i>Comment</a>
+                            <a href="" class="post-activity-button "><i class="uil uil-share"></i>Share</a>
+                        </div>
+                    </div>
+                </div>
+    
+
             </div>
         </section>
-        <section>
-            <div class="feed grid">
-                <div class="intro">
-                    <h1 class="intro-title">Intro</h1>
-                    <div class="--flex intro-title-div">
-                        <p class="intro-icon"><i class="uil uil-suitcase"></i></p>
-                        <h4 class="intro-subtitle">Not Yet Working</h4>
-                    </div>
-                    <div class="--flex intro-title-div">
-                        <p class="intro-icon"><i class="uil uil-suitcase"></i></p>
-                        <h4 class="intro-subtitle">Not Yet Working</h4>
-                    </div>
-                    <div class="--flex intro-title-div">
-                        <p class="intro-icon"><i class="uil uil-suitcase"></i></p>
-                        <h4 class="intro-subtitle">Not Yet Working</h4>
-                    </div>
-                    <div class="--flex intro-title-div">
-                        <p class="intro-icon"><i class="uil uil-suitcase"></i></p>
-                        <h4 class="intro-subtitle">Not Yet Working</h4>
-                    </div>
-                </div>
-                <div class="posts">
-                    <div class="post-box-div">
-                        <a href="" class="post-icon"><i class="uil uil-user-circle"></i></a>
-                        <input type="text" class="post-box" placeholder="post somthing">
-                    </div>
-                </div>
-                <div class="posts1">
-                    <div class="post-box-div">
-                        <a href="" class="post-icon"><i class="uil uil-user-circle"></i></a>
-                        <input type="text" class="post-box" placeholder="post somthing">
-                    </div>
-                </div>
-                <div class="recent">
-                    <h1 class="intro-title">recent</h1>
-                    <div class="--flex intro-title-div">
-                        <p class="intro-icon"><i class="uil uil-suitcase"></i></p>
-                        <h4 class="intro-subtitle">Not Yet Working</h4>
-                    </div>
-                    <div class="--flex intro-title-div">
-                        <p class="intro-icon"><i class="uil uil-suitcase"></i></p>
-                        <h4 class="intro-subtitle">Not Yet Working</h4>
-                    </div>
-                    <div class="--flex intro-title-div">
-                        <p class="intro-icon"><i class="uil uil-suitcase"></i></p>
-                        <h4 class="intro-subtitle">Not Yet Working</h4>
-                    </div>
-                    <div class="--flex recent-title-div">
-                        <p class="intro-icon"><i class="uil uil-suitcase"></i></p>
-                        <h4 class="intro-subtitle">Not Yet Working</h4>
-                    </div>
-                </div>
-            </div>
-        </section>
+
     </main>
     
 </body>
